@@ -140,7 +140,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/zajecia2.jpg"
+                src="/images/zajecia3.jpg"
                 alt="Image 8"
                 fill
                 style={{ objectFit: "cover" }}
@@ -148,7 +148,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/zajecia3.jpg"
+                src="/images/zajecia2.jpg"
                 alt="Image 9"
                 fill
                 style={{ objectFit: "cover" }}
