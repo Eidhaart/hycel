@@ -9,7 +9,11 @@ export default function Home() {
       <section className="hero-top">
         <div className="hero-text-centered">
           <h1>ODŁAWIANIE ZWIERZĄT</h1>
-          <p>Humanitarne metody, profesjonalizm i współpraca</p>
+          <i>
+            Nasza firma działa na rynku od 2009 roku, stale rozwijając swoje
+            technologie, sprzęt oraz metody pracy. Od początku istnienia
+            stawiamy na profesjonalizm, skuteczność i dobro zwierząt.
+          </i>
         </div>
       </section>
 
@@ -19,18 +23,22 @@ export default function Home() {
         <div className="content-card special-card">
           <div className="content-body">
             <h2>Kontakt</h2>
-            <p>Telefon: +48 606 903 286</p>
-            <p>Email: bartosz.gadziomski@gmail.com</p>
+            <p>+48 606 903 286</p>
+            <p>bartosz.gadziomski@gmail.com</p>
           </div>
         </div>
 
         {/* Card 2 */}
         <div className="content-card">
           <div className="content-body">
-            <h2>Nowy Projekt</h2>
+            <h2>Odławianie bezdomnych i wolno żyjących zwierząt</h2>
             <p>
-              To jest przykładowy tekst na górze karty. Zwięzły, elegancki,
-              konkretny.
+              Od lat współpracujemy z urzędami gmin, fundacjami oraz innymi
+              podmiotami, świadcząc usługi w zakresie odławiania zwierząt
+              bezdomnych i wolno żyjących oraz ich transportu. Dysponujemy
+              wszelkimi wymaganymi zezwoleniami oraz licencją przewoźnika.
+              Pracujemy przy użyciu specjalistycznego sprzętu, który pozwala na
+              bezpieczny i humanitarny odłów zwierząt.
             </p>
           </div>
           <div className="content-images-row">
@@ -125,8 +133,9 @@ export default function Home() {
             <p>
               Pokazanie nowego modelu spędzania czasu wraz z psem,
               przedstawienie podstawowych dyscyplin sportów zaprzęgowych,
-              nauczanie technik canicross i canirando jako ćwiczenia
-              koordynacyjno-ruchowe.
+              nauczanie technik canicross i canirando (aktywny spacer z psem
+              przypietym do pasa za pomoca liny z amortyzatorem) jako cwiczenia
+              koordynacyjno - ruchowe
             </p>
           </div>
           <div className="content-images-row">
@@ -193,17 +202,21 @@ export default function Home() {
       {/* TRUSTED BY SECTION */}
       <section className="trusted-by">
         <h2>Zaufali nam</h2>
-        <div className="trusted-groups">
-          <div>
+
+        <div className="trusted-grid">
+          {/* Fundacje Card */}
+          <div className="trusted-card">
             <h3>Fundacje</h3>
-            <p className="trusted-list">
+            <p>
               Viva • Mondo Cane • Zielony Pies • Pogotowie dla zwierząt •
               Fundacja Wzajemnie Pomocni • Medor • Gadehunde • Dobermannothilfe
             </p>
           </div>
-          <div>
-            <h3>Urzędy gmin</h3>
-            <p className="trusted-list">
+
+          {/* Urzędy Gmin Card */}
+          <div className="trusted-card">
+            <h3>Urzędy Gmin</h3>
+            <p>
               Brochów • Leoncin • Pomiechówek • Czosnów • Jabłonna • Zakroczym •
               Naruszewo • Załuski • Maków Mazowiecki • Halinów • Wiązowna •
               Lelis • Żabia Wola • Gostynin

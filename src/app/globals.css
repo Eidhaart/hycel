@@ -35,6 +35,11 @@
   --highlight-text: rgb(255, 93, 29); /* bright green */
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 /* --- Global Body --- */
 body {
   background-color: var(--bg-color);
@@ -47,19 +52,32 @@ body {
 /* --- Hero --- */
 .hero-top {
   width: 100%;
-  padding: 5rem 1rem 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 0rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-sizing: border-box;
 }
+
+.hero-top i {
+  font-size: 1rem;
+  color: var(--primary-text);
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  opacity: 0.6;
+}
+
 .hero-text-centered h1 {
   font-family: "Special Gothic Expanded";
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: clamp(2rem, 6vw, 3.5rem);
   color: var(--primary-text);
   margin-bottom: 1rem;
 }
+
 .hero-text-centered p {
   font-size: 1.25rem;
   color: var(--highlight);
@@ -142,7 +160,7 @@ body {
 .special-card p {
   color: var(--highlight-text);
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 6vw, 2rem);
 }
 
 /* --- Media Box --- */
@@ -208,23 +226,48 @@ body {
 
 /* --- Trusted Section --- */
 .trusted-by {
-  padding: 3rem 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
+  padding: 4rem 1rem;
   text-align: center;
+  background-color: var(--bg-color);
 }
+
 .trusted-by h2 {
   color: var(--highlight);
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
 }
-.trusted-groups h3 {
-  color: var(--primary-text);
-  font-size: 1.25rem;
-  margin-top: 2rem;
+
+.trusted-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.trusted-list {
-  color: var(--primary-text);
+
+.trusted-card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  flex: 1 1 300px;
+  max-width: 500px;
+  color: var(--card-text);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.trusted-card:hover {
+  transform: translateY(-5px);
+}
+
+.trusted-card h3 {
+  font-size: 1.75rem;
+  color: var(--accent-yellow);
+  margin-bottom: 1rem;
+}
+
+.trusted-card p {
   font-size: 1rem;
   line-height: 1.6;
 }
