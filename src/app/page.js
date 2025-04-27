@@ -113,9 +113,9 @@ export default function Home() {
           <div className="content-body">
             <h2>Zajęcia edukacyjne dla dzieci i młodzieży</h2>
             <p>
-              "O czym szczeka pies" cel zajęć: Nauczenie prawidłowego zachowania
-              w obecności zwierząt, odczytywania znaków dawanych przez zwierzęta
-              podczas pracy z nimi.
+              &ldquo;O czym szczeka pies&ldquo; cel zajęć: Nauczenie
+              prawidłowego zachowania w obecności zwierząt, odczytywania znaków
+              dawanych przez zwierzęta podczas pracy z nimi.
             </p>
             <p>
               Zapobieganie sytuacjom w których mogą powstać sytuacje konfliktowe
