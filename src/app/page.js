@@ -44,7 +44,7 @@ export default function Home() {
           <div className="content-images-row">
             <div className="content-image-square">
               <Image
-                src="/images/transport1.jpg"
+                src="/images/sprzęt1.jpg"
                 alt="Image 1"
                 fill
                 style={{ objectFit: "cover" }}
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/transport2.jpg"
+                src="/images/sprzęt12.jpg"
                 alt="Image 2"
                 fill
                 style={{ objectFit: "cover" }}
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/transport3.jpg"
+                src="/images/sprzęt3.jpg"
                 alt="Image 3"
                 fill
                 style={{ objectFit: "cover" }}
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="content-images-row">
             <div className="content-image-square">
               <Image
-                src="/images/sprzęt1.jpg"
+                src="/images/transport1.jpg"
                 alt="Image 4"
                 fill
                 style={{ objectFit: "cover" }}
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/sprzęt2.jpg"
+                src="/images/transport2.jpg"
                 alt="Image 5"
                 fill
                 style={{ objectFit: "cover" }}
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/sprzęt3.jpg"
+                src="/images/transport3.jpg"
                 alt="Image 6"
                 fill
                 style={{ objectFit: "cover" }}
