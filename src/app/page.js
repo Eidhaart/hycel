@@ -67,12 +67,12 @@ export default function Home() {
             <h2>Transport zwierząt</h2>
             <p>
               Posiadamy licencjonowane pojazdy oraz przyczepy dostosowane do
-              przewozu różnych gatunków zwierząt – od psów i koni po dzikie
+              przewozu różnych gatunków zwierząt od psów i koni po dzikie
               zwierzęta.
             </p>
             <p>
               Dzięki wieloletniemu doświadczeniu podejmujemy się również
-              wymagających transportów – zwierząt lękowych, agresywnych czy
+              wymagających transportów zwierząt lękowych, agresywnych czy
               pochodzących ze schronisk i fundacji.
             </p>
             <p>
@@ -185,7 +185,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="custom-button"
           >
-            „Hycel. Historia nietypowej pasji” – Wirtualna Polska
+            „Hycel. Historia nietypowej pasji” Wirtualna Polska
           </a>
         </div>
       </div>
