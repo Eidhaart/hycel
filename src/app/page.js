@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="content-image-square">
               <Image
-                src="/images/sprzęt12.jpg"
+                src="/images/sprzęt2.jpg"
                 alt="Image 2"
                 fill
                 style={{ objectFit: "cover" }}
