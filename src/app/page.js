@@ -6,16 +6,18 @@ export default function Home() {
   return (
     <main>
       {/* HERO SECTION */}
-      <section className="hero-top">
-        <div className="hero-text-centered">
-          <h1>ODŁAWIANIE ZWIERZĄT</h1>
-          <i>
-            Nasza firma działa na rynku od 2009 roku, stale rozwijając swoje
-            technologie, sprzęt oraz metody pracy. Od początku istnienia
-            stawiamy na profesjonalizm, skuteczność i dobro zwierząt.
-          </i>
-        </div>
-      </section>
+      <div className="hero-wrapper">
+        <section className="hero-top">
+          <div className="hero-text-centered">
+            <h1>ODŁAWIANIE ZWIERZĄT</h1>
+            <i>
+              Nasza firma działa na rynku od 2009 roku, stale rozwijając swoje
+              technologie, sprzęt oraz metody pracy. Od początku istnienia
+              stawiamy na profesjonalizm, skuteczność i dobro zwierząt.
+            </i>
+          </div>
+        </section>
+      </div>
 
       {/* 2x2 GRID STATIC SECTION */}
       <section className="grid-layout">
@@ -224,6 +226,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <footer className="site-footer">
+        <div className="footer-content">
+          <p>
+            &copy; {new Date().getFullYear()} Bartosz Gadziomski. Wszelkie prawa
+            zastrzeżone.
+          </p>
+          <i>Projekt i wykonanie: Eidhaart</i>
+        </div>
+      </footer>
     </main>
   );
 }

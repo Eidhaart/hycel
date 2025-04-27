@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Hyceleu – Profesjonalne Odławianie i Transport Zwierząt</title>
+      <title>Profesjonalne Odławianie i Transport Zwierząt</title>
       <meta
         name="description"
         content="Profesjonalne usługi odławiania i transportu zwierząt – psy, konie, zwierzęta dzikie. Działamy od 2009 roku z licencją, sprzętem i doświadczeniem."
@@ -15,10 +15,7 @@ export default function Head() {
       />
 
       {/* Open Graph (Facebook, LinkedIn) */}
-      <meta
-        property="og:title"
-        content="Hyceleu – Odławianie i Transport Zwierząt"
-      />
+      <meta property="og:title" content="Odławianie i Transport Zwierząt" />
       <meta
         property="og:description"
         content="Profesjonalne usługi odławiania i transportu zwierząt – od 2009 roku."
