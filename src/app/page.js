@@ -1,10 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
     <main>
+      <SpeedInsights />
       {/* HERO SECTION */}
       <div className="hero-wrapper">
         <section className="hero-top">
@@ -18,7 +20,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-
       {/* 2x2 GRID STATIC SECTION */}
       <section className="grid-layout">
         {/* Card 1 - Kontakt */}
@@ -168,7 +169,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* MEDIA SECTION */}
       <div className="media-box-horizontal">
         <h2>Media o nas</h2>
@@ -200,7 +200,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       {/* TRUSTED BY SECTION */}
       <section className="trusted-by">
         <h2>Zaufali nam</h2>
