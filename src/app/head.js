@@ -40,6 +40,7 @@ export default function Head() {
       <meta name="twitter:card" content="summary_large_image" />
 
       <link rel="icon" href="/favicon.ico" />
+      <link rel="canonical" href="https://www.hycel.eu/" />
     </>
   );
 }
