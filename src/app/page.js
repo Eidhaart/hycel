@@ -9,7 +9,7 @@ export default function Home() {
       <div className="hero-wrapper">
         <section className="hero-top">
           <div className="hero-text-centered">
-            <h1>ODŁAWIANIE ZWIERZĄT</h1>
+            <h1>ODŁAWIANIE I TRANSPORT ZWIERZĄT</h1>
             <i>
               Nasza firma działa na rynku od 2009 roku, stale rozwijając swoje
               technologie, sprzęt oraz metody pracy. Od początku istnienia
@@ -128,9 +128,9 @@ export default function Home() {
               dawanych przez zwierzęta podczas pracy z nimi.
             </p>
             <p>
-              Zapobieganie sytuacjom w których mogą powstać sytuacje konfliktowe
-              pomiędzy ludźmi i zwierzętami. Omówimy również sposoby
-              postępowania w obecności zwierzęt nieznanych i bezdomnych.
+              zapobieganie sytuacjom w ktorych moga powstac konflikty pomiędzy
+              ludźmi i zwierzętami. Omówimy również sposoby postępowania w
+              obecności zwierzęt nieznanych i bezdomnych.
             </p>
             <p>
               Pokazanie nowego modelu spędzania czasu wraz z psem,
