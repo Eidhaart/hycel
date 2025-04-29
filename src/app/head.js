@@ -11,7 +11,7 @@ export default function Head() {
       <meta name="author" content="Bartosz Gadziomski" />
       <meta
         name="keywords"
-        content="odławianie zwierząt, transport zwierząt, przewóz psów, przewóz koni, hyceleu, schronisko, dzikie zwierzęta, fundacje, gminy, bezdomne zwierzęta"
+        content="adopcja zwierząt, promocja adopcji zwierząt, schorniska dla zwierząt, odławianie zwierząt, transport zwierząt, przewóz psów, przewóz koni, hyceleu, schronisko, dzikie zwierzęta, fundacje, gminy, bezdomne zwierzęta"
       />
 
       {/* Open Graph (Facebook, LinkedIn) */}

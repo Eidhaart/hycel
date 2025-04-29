@@ -122,7 +122,10 @@ export default function Home() {
         {/* Card 4 */}
         <div className="content-card">
           <div className="content-body">
-            <h2>Zajęcia edukacyjne dla dzieci i młodzieży</h2>
+            <h2>
+              Zajęcia edukacyjne dla dzieci i młodzieży, oraz promocja adopcji
+              zwierząt
+            </h2>
             <p>
               &ldquo;O czym szczeka pies&ldquo; cel zajęć: Nauczenie
               prawidłowego zachowania w obecności zwierząt, odczytywania znaków
@@ -140,6 +143,7 @@ export default function Home() {
               przypietym do pasa za pomoca liny z amortyzatorem) jako cwiczenia
               koordynacyjno - ruchowe
             </p>
+            <p>Pormocja Adopcji zwierząt</p>
           </div>
           <div className="content-images-row">
             <div className="content-image-square">
