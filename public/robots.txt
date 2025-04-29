@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hycel.eu
+
+# Sitemaps
+Sitemap: https://hycel.eu/sitemap.xml
