@@ -126,24 +126,24 @@ export default function Home() {
               Zajęcia edukacyjne dla dzieci i młodzieży, oraz promocja adopcji
               zwierząt
             </h2>
+            <p>&ldquo;O czym szczeka pies&ldquo; cel zajęć:</p>
             <p>
-              &ldquo;O czym szczeka pies&ldquo; cel zajęć: Nauczenie
-              prawidłowego zachowania w obecności zwierząt, odczytywania znaków
-              dawanych przez zwierzęta podczas pracy z nimi.
+              -Nauczenie prawidłowego zachowania w obecności zwierząt,
+              odczytywania znaków dawanych przez zwierzęta podczas pracy z nimi.
             </p>
             <p>
-              zapobieganie sytuacjom w ktorych moga powstac konflikty pomiędzy
+              -Zapobieganie sytuacjom w ktorych moga powstac konflikty pomiędzy
               ludźmi i zwierzętami. Omówimy również sposoby postępowania w
               obecności zwierzęt nieznanych i bezdomnych.
             </p>
             <p>
-              Pokazanie nowego modelu spędzania czasu wraz z psem,
+              -Pokazanie nowego modelu spędzania czasu wraz z psem,
               przedstawienie podstawowych dyscyplin sportów zaprzęgowych,
               nauczanie technik canicross i canirando (aktywny spacer z psem
               przypietym do pasa za pomoca liny z amortyzatorem) jako cwiczenia
               koordynacyjno - ruchowe
             </p>
-            <p>Pormocja Adopcji zwierząt</p>
+            <p>-Pormocja Adopcji zwierząt</p>
           </div>
           <div className="content-images-row">
             <div className="content-image-square">
