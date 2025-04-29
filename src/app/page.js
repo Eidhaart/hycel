@@ -144,7 +144,7 @@ export default function Home() {
               koordynacyjno - ruchowe
             </p>
             <p>
-              <b>-</b> Pormocja Adopcji zwierząt
+              <b>-</b> Promocja Adopcji zwierząt
             </p>
           </div>
           <div className="content-images-row">
