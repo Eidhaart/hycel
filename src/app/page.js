@@ -125,7 +125,7 @@ export default function Home() {
         <div className="content-card">
           <div className="content-body">
             <h2>
-              Zajęcia edukacyjne dla dzieci i młodzieży, oraz promocja adopcji
+              Zajęcia edukacyjne dla dzieci i młodzieży oraz promocja adopcji
               zwierząt
             </h2>
             <p>&ldquo;O czym szczeka pies&ldquo; cel zajęć:</p>
@@ -134,19 +134,19 @@ export default function Home() {
               odczytywania znaków dawanych przez zwierzęta podczas pracy z nimi.
             </p>
             <p>
-              <b>-</b> Zapobieganie sytuacjom w ktorych moga powstac konflikty
+              <b>-</b> Zapobieganie sytuacjom, w których mogą powstać konflikty
               pomiędzy ludźmi i zwierzętami. Omówimy również sposoby
-              postępowania w obecności zwierzęt nieznanych i bezdomnych.
+              postępowania w obecności zwierząt nieznanych i bezdomnych.
             </p>
             <p>
               <b>-</b> Pokazanie nowego modelu spędzania czasu wraz z psem,
               przedstawienie podstawowych dyscyplin sportów zaprzęgowych,
               nauczanie technik canicross i canirando (aktywny spacer z psem
-              przypietym do pasa za pomoca liny z amortyzatorem) jako cwiczenia
-              koordynacyjno - ruchowe
+              przypiętym do pasa za pomocą liny z amortyzatorem) jako ćwiczenia
+              koordynacyjno-ruchowe.
             </p>
             <p>
-              <b>-</b> Promocja Adopcji zwierząt
+              <b>-</b> Promocja adopcji zwierząt.
             </p>
           </div>
           <div className="content-images-row">
@@ -196,7 +196,7 @@ export default function Home() {
             ></iframe>
           </div>
         </div>
-        <h2>O naszej Pasji</h2>
+        <h2>O naszej pasji</h2>
         <div className="button-wrapper">
           <a
             href="https://uwaga.tvn.pl/reportaze/poruszajaca-historia-bezdomnego-psa-ls6687100"
