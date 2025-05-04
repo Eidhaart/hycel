@@ -2,6 +2,7 @@ export default function Head() {
   return (
     <>
       <title>Profesjonalne Odławianie i Transport Zwierząt</title>
+
       <meta
         name="description"
         content="Profesjonalne usługi odławiania i transportu zwierząt – psy, konie, zwierzęta dzikie. Działamy od 2009 roku z licencją, sprzętem i doświadczeniem."
@@ -20,6 +21,7 @@ export default function Head() {
         property="og:description"
         content="Profesjonalne usługi odławiania i transportu zwierząt – od 2009 roku."
       />
+
       <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
       <meta property="og:url" content="https://hycel.eu" />
       <meta property="og:type" content="website" />

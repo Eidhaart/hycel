@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import "eidhaart-link/dist/index.css";
+import EidhaartLink from "eidhaart-link";
 
 export default function Home() {
   return (
@@ -237,8 +239,12 @@ export default function Home() {
             &copy; {new Date().getFullYear()} Bartosz Gadziomski. Wszelkie prawa
             zastrzeżone.
           </p>
-          <i>Projekt i wykonanie: Eidhaart</i>
         </div>
+        <EidhaartLink
+          prefix="Projekt i wykonanie: "
+          className="dev"
+          style={{ fontFamily: "AmazOOSTROVttf, comic sans" }}
+        />
       </footer>
     </main>
   );

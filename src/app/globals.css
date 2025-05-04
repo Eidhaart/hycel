@@ -11,6 +11,35 @@
   font-weight: 700;
   font-style: normal;
 }
+/* @font-face {
+  font-family: "AmazOOSTROVFine";
+  src: url("/fonts/AmazOOSTROVFine.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+} */
+@font-face {
+  font-family: "AmazOOSTROVFinettf";
+  src: url("/fonts/AmazOOSTROVFine.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AmazOOSTROV";
+  src: url("https://eidhaart.com/fonts/AmazOOSTROVFine.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AmazOOSTROVttf";
+  src: url("https://eidhaart.com/fonts/AmazOOSTROVFine.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Lato";
   src: url("/fonts/Lato-Light.ttf") format("truetype");
@@ -47,6 +76,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+}
+
+.eidhaart-link {
+  font-family: "AmazOOSTROVFinettf", sans-serif;
 }
 
 /* --- Hero --- */
@@ -100,6 +133,7 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
 .content-card {
   display: flex;
   flex-direction: column;
